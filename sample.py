@@ -17,7 +17,7 @@ print("Id no ",id)
 print("I am from ",Location)
 print("I am a",Designation)
 
-#rite a Python program to print 'Hello' on screen and then print your name 
+#Write a Python program to print 'Hello' on screen and then print your name 
 #on a separate line
 print("Hello")
 print("Rajashekar")
@@ -40,7 +40,7 @@ print("My first number is",a)
 print("My second numbrt is",b)
 print("My third number is",c)
 
-#rite a program for creating a variable as given below:
+#Write a program for creating a variable as given below:
 java = 90
 python = 50
 Dotnet = 80
@@ -111,3 +111,85 @@ sum2 = j + k
 product = j * k
 print("Sum:", sum2)
 print("Product:", product) 
+
+
+
+#Work 2
+
+#1. Calculate the multiplication and sum of two numbers?
+a = 10
+b = 20
+sum = a+b 
+mul = a*b 
+print("the sum of two numbers is:",sum)
+print("The multiplication of two numbers is:",mul)
+
+#Create a string made of the first, middle and last character?
+#Expected Output: Quality Thought
+# print the word in first ,last,middle letters
+
+word = "Quality Thoughts"
+
+first = word[0]
+middle = word[len(word)//2]
+last = word[-1]
+result = first+middle+last
+print("string:",word)
+print("first,middle,last:",result)
+
+#Use Python code to print out the following: 
+#One half of 100 is 50. Use a variable to print out the number 50
+no = 50
+print("One half of 100:",no)
+
+#sum of total variables
+myTotal = 4+2*8-6
+print("My total is:",myTotal)
+
+#If you are dividing, you can use two forward slashes to do floor division:
+myTotal = 7//5
+print("Mytotal is:",myTotal)
+
+# You can tell Python what you mean with round brackets, parentheses. Add 
+#two round brackets to your code:
+myTotal = (8+2)*10
+print("MyTotal is:",myTotal)
+
+# For example, change your myTotal line to this:
+myTotal = 8+2*10
+print("MyTotal is:",myTotal)
+
+#Likewise, if we had this:   myTotal = 8 + 10 / 2   But if we add round brackets:
+#myTotal = (8 + 10) / 2
+myTotal = 8+10/2
+print("MyTotal is:",myTotal)
+
+myTotal = (8+10)/2
+print("MyTotal is:",myTotal)
+
+#So, Python sees that there is 16 stored in the numberOne variable and 4 
+#stored in the numberTwo variable. It adds these up and stores the result in the answer variable. You can also mix the two, variables and hard-code numbers: 
+#answer = numberOne + numberTwo + 20 
+#answer = 10 * numberOne + (numberTwo + 20) 
+# answer = numberOne + 20 + numberTwo – 10
+# numbering the series
+numberone = 16
+numberTwo = 4
+# variables with that of an numbers
+answer = numberone +numberTwo
+print("Answer (numberone+numberTwo) =",answer)
+
+answer2 = numberone +numberTwo+20
+print("Answer (numberone+numberTwo+20) = ",answer)
+
+answer3 = 10*numberone+(numberTwo+20)
+print("Answer (10*numberone+(numberTwo+20)) = ",answer)
+
+answer4 = numberone+20+numberTwo-10
+print("Answer numberone+20+numberTwo-10) =",answer)
+
+
+#strings with concatenation
+firstname = "Quality"
+Secondname = "Thoughts"
+print(firstname+ " " +Secondname)
