@@ -1,0 +1,21 @@
+1 : what is a Programming Language?
+Ans: A programming language is a formal set of instructions that allows humans to communicate with computers and tell them what to do.
+It provides rules (syntax) and meaning (semantics) for writing programs that can perform tasks such as calculations, data processing, controlling devices, or building applications.
+Key Points:
+Definition:
+A programming language is a medium between humans and machines, used to write programs (sets of instructions) that a computer can execute.
+
+Types of Programming Languages:
+Low-Level Languages: Close to machine code (e.g., Assembly, Machine Language).
+High-Level Languages: Easier for humans to read and write (e.g., Python, Java, C++, JavaScript).
+
+Examples:
+Python – simple, beginner-friendly, widely used in data science and web development.
+1:C – efficient and widely used in system programming.
+2:Java – popular for enterprise and mobile apps.
+3:JavaScript – essential for web development.
+
+Q2: what is a Language in Computers?
+Ans :A language in computers is a system used to communicate with a computer.
+It allows us to give instructions and process data in a form the machine understands.
+Examples include machine language, assembly, and high-level languages like Python or Java.
